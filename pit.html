@@ -8,7 +8,9 @@
         </style>
 
     </head>
-    <body>
+    <body style="background:black">
+        <a href="inicio.html" style="color:red">Ir a la página de inicio</a>
+        <p style="color:blue">Vista put</p>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1534167/three.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/OrbitControls.js"></script>
         
@@ -73,7 +75,7 @@
 
             
 
-            camera.position.z =-10;
+            camera.position.z =5;
             controls.update();
             var ambientLight = new THREE.HemisphereLight(0xFFEEB1,0x080820,1);
             scene.add(ambientLight);
